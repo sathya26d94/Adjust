@@ -1,9 +1,9 @@
-    //
-    //  ViewController.m
-    //  Adjust
-    //
-    //  Created by Sathiyamoorthy on 19/11/21.
-    //
+//
+//  ViewController.m
+//  Adjust
+//
+//  Created by Sathiyamoorthy on 19/11/21.
+//
 
 #import "ViewController.h"
 #import "ViewModel.h"
@@ -21,15 +21,11 @@
 - (instancetype)initWithCoder:(NSCoder *)coder {
     self = [super initWithCoder:coder];
     if (self) {
-        self.viewModel = [[ViewModel alloc] initWithClient: [[NetworkService alloc] init]
-                                                    parser: [[JsonResponseModelParser alloc] init]
+        self.viewModel = [[ViewModel alloc] initWithClient:[[NetworkService alloc] init]
+                                                    parser:[[JsonResponseModelParser alloc] init]
                           ];
     }
     return self;
-}
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
 }
 
 - (IBAction)onTapLogActionButton:(id)sender {

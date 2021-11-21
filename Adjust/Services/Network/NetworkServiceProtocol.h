@@ -1,9 +1,9 @@
 //
 //  NetworkServiceProtocol.h
-//  ObjectiveCSample
+//  Adjust
 //
-//  Created by Benoit PASQUIER on 23/05/2020.
-//  Copyright © 2020 Benoit PASQUIER. All rights reserved.
+//  Created by Sathiyamoorthy on 21/11/2021.
+//  Copyright © 2020 Sathiyamoorthy. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

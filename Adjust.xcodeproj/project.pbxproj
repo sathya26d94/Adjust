@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		5C268DE7274A980F0091A9FC /* MockSuccessNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C268DE5274A980F0091A9FC /* MockSuccessNetworkService.m */; };
 		5C268DE9274A99240091A9FC /* PostSecondsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C268DE8274A99240091A9FC /* PostSecondsTests.m */; };
-		5C268DEB274AA2DD0091A9FC /* ViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C268DEA274AA2DD0091A9FC /* ViewModelTests.m */; };
-		5C268DFA274AAB8A0091A9FC /* LocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C268DF9274AAB8A0091A9FC /* LocalStorage.m */; };
 		5C27D9D52747B21200CC7761 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C27D9D42747B21200CC7761 /* AppDelegate.m */; };
 		5C27D9D82747B21200CC7761 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C27D9D72747B21200CC7761 /* SceneDelegate.m */; };
 		5C27D9DB2747B21200CC7761 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C27D9DA2747B21200CC7761 /* ViewController.m */; };
@@ -50,9 +48,6 @@
 		5C268DE5274A980F0091A9FC /* MockSuccessNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MockSuccessNetworkService.m; path = AdjustTests/MockSuccessNetworkService.m; sourceTree = SOURCE_ROOT; };
 		5C268DE6274A980F0091A9FC /* MockSuccessNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MockSuccessNetworkService.h; path = AdjustTests/MockSuccessNetworkService.h; sourceTree = SOURCE_ROOT; };
 		5C268DE8274A99240091A9FC /* PostSecondsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostSecondsTests.m; sourceTree = "<group>"; };
-		5C268DEA274AA2DD0091A9FC /* ViewModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModelTests.m; sourceTree = "<group>"; };
-		5C268DF8274AAB8A0091A9FC /* LocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalStorage.h; sourceTree = "<group>"; };
-		5C268DF9274AAB8A0091A9FC /* LocalStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalStorage.m; sourceTree = "<group>"; };
 		5C27D9D02747B21200CC7761 /* Adjust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adjust.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C27D9D32747B21200CC7761 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5C27D9D42747B21200CC7761 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,15 +117,6 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
-		5C268DF7274AAB070091A9FC /* LocalStorage */ = {
-			isa = PBXGroup;
-			children = (
-				5C268DF8274AAB8A0091A9FC /* LocalStorage.h */,
-				5C268DF9274AAB8A0091A9FC /* LocalStorage.m */,
-			);
-			path = LocalStorage;
-			sourceTree = "<group>";
-		};
 		5C27D9C72747B21200CC7761 = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +161,6 @@
 				5C27D9EF2747B21400CC7761 /* DateExtensionTests.m */,
 				5C27DA38274A90ED00CC7761 /* JsonResponseModelParserTests.m */,
 				5C268DE8274A99240091A9FC /* PostSecondsTests.m */,
-				5C268DEA274AA2DD0091A9FC /* ViewModelTests.m */,
 				5C27D9F12747B21400CC7761 /* Info.plist */,
 			);
 			path = AdjustTests;
@@ -193,7 +178,6 @@
 		5C27DA18274A688400CC7761 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				5C268DF7274AAB070091A9FC /* LocalStorage */,
 				5C27DA1B274A68AA00CC7761 /* Network */,
 				5C27DA19274A68AA00CC7761 /* PostSecondsProtocol.h */,
 				5C27DA20274A68AA00CC7761 /* PostSeconds.h */,
@@ -401,7 +385,6 @@
 				5C27DA2F274A780D00CC7761 /* ViewModel.m in Sources */,
 				5C27DA22274A68AA00CC7761 /* NetworkService.m in Sources */,
 				5C27DA23274A68AA00CC7761 /* JsonResponseModelParser.m in Sources */,
-				5C268DFA274AAB8A0091A9FC /* LocalStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +394,6 @@
 			files = (
 				5C27D9F02747B21400CC7761 /* DateExtensionTests.m in Sources */,
 				5C268DE9274A99240091A9FC /* PostSecondsTests.m in Sources */,
-				5C268DEB274AA2DD0091A9FC /* ViewModelTests.m in Sources */,
 				5C268DE7274A980F0091A9FC /* MockSuccessNetworkService.m in Sources */,
 				5C27DA39274A90ED00CC7761 /* JsonResponseModelParserTests.m in Sources */,
 			);
